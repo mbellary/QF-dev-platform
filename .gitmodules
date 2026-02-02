@@ -1,0 +1,6 @@
+[submodule "infra"]
+	path = infra
+	url = https://github.com/mbellary/QF-infra-dev
+[submodule "downloader"]
+	path = downloader
+	url = https://github.com/mbellary/QF-downloader
