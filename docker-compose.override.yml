@@ -1,6 +1,6 @@
 services:
   qf-app:
     volumes:
-      - ./secrets/google_drive/service_account.json:/run/secrets/google_drive.json:ro
+      - ${PWD}/secrets/google_drive/service_account.json:/run/secrets/google_drive.json:ro
     environment:
       GOOGLE_DRIVE_SERVICE_ACCOUNT_FILE: /run/secrets/google_drive.json
