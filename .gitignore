@@ -1,0 +1,38 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+grafana_data/*
+
+localstack_data/*
+
+# Runtime-generated Phase 0.1 roll-up manifest
+pipelines/ingestion/fx/metadata.json
+
+# Runtime-generated Phase 0.2 roll-up manifest
+pipelines/ingestion/macro_news/metadata.json
+
+data/raw/*
+data/customer/*
+
+# Local-only secrets (do not commit)
+config/secrets/*.json
+!config/secrets/*.example.json
+
+.vscode/
+
+# Coverage artifacts
+.coverage
+coverage.xml
+
+# env files
+src/qf_downloader/.env.dev
+
+secrets/*
